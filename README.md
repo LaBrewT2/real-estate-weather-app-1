@@ -9,3 +9,5 @@ https://docs.google.com/document/d/1naWzKCTkI0lzFXlfg4QYamDw3K_fAHHxSFAiDx7c1KU/
 
 
 A real estate application (similar to Zillow or StreetEasy) that allows you to see the weather conditions, climate risk, and construction materials of your potential new property. 
+
+These are changes that I am making.
