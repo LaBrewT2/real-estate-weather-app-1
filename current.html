@@ -4,14 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="weather.css">
     <title>Weather and Air Quality</title>
 </head>
+
 <body>
-    <div class="jumbotoron" style="margin-bottom:0px; color:white; background-color: lightblue;">
-        <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2>
-    </div>
-    <div class="container">
+    <div class= "content"></div>
+    <nav class="navbar" style="margin-bottom:0px; color:white; background-color: lightblue;">
+        <span class="navbar-brand mb-0 h1"> <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2></span>
+      </nav>
+      <div class="over container body-content">
+
         <div class="row" style="margin-bottom:20px;">
         <h3 class="text-center text-primary ">Enter City Name</h3>
         <span id="error"></span>
@@ -21,7 +25,11 @@
             <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
             <button id="submitWeather" class="btn btn-primary">Search City</button>
         </div>
+        
         <div id="show"></div>
+    </div> 
+    
+
 <!--jQuery-->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
