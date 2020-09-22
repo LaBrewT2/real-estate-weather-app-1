@@ -10,10 +10,11 @@
 </head>
 
 <body>
-    <div class="jumbotron" style="margin-bottom:0px; color:white; background-color: lightblue;">
-        <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2>
-    </div>
-    <div class="container">
+        <div class= "content"></div>
+    <nav class="navbar" style="margin-bottom:0px; color:white; background-color: lightblue;">
+        <span class="navbar-brand mb-0 h1"> <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2></span>
+      </nav>
+    <div class="over container body-content">
         <div class="row" style="margin-bottom:20px;">
             <h3 class="text-center text-primary ">Enter City Name</h3>
             <span id="error"></span>
@@ -23,6 +24,7 @@
             <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
             <button id="submitWeather" class="btn btn-primary">Search</button>
         </div>
+    </div>
 
         <!-- Container to display data -->
         <div class="container">
