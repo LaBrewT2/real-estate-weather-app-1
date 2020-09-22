@@ -9,7 +9,7 @@ function showAir(city) {
             console.log(data)
             // debugger
             var widget = show(data)
-            $("#show").append(widget);
+            $("#show-col-2").append(widget);
 
         })
     
