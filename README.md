@@ -1,3 +1,9 @@
+# Project Members
+Shyamlee Patel
+Tanasia LaBrew
+Jennifer Morris
+Lyne Malele
+
 # real-estate-weather-app
 #Project 1
 Our group originally intended for our project to be a real estate weather app, but we could not find a functional (and free) real estate API. We decided to resort to a Climate and Air Quality App because of time constraints. 
