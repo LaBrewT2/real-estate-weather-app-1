@@ -1,8 +1,5 @@
 # Project Members
-Shyamlee Patel
-Tanasia LaBrew
-Jennifer Morris
-Lyne Malele
+Shyamlee Patel, Tanasia LaBrew, Jennifer Morris, Lyne Malele
 
 # real-estate-weather-app
 #Project 1
