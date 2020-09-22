@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    $('#scale').hide();
+
     $('#submitWeather').click(function () {
 
         var city = $("#city").val()
@@ -18,6 +20,8 @@ $(document).ready(function () {
                     $("#show").html(widget);
 
                     $("#city").val('');
+
+                    $("#scale").show()
 
                     showAir(city)
                 })

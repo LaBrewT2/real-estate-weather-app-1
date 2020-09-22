@@ -39,7 +39,7 @@ function showAir(city) {
             return "<h3><strong>Air Quality Index</strong>: " + red
         }
 
-        else if (201 <= airQualityInt && airQualityInt <= 251) {
+        else if (201 <= airQualityInt && airQualityInt <= 300) {
             var purple = airQuality.fontcolor("bb00fd")
             return "<h3><strong>Air Quality Index</strong>: " + purple
         }

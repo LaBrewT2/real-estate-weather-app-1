@@ -10,10 +10,12 @@
 </head>
 
 <body>
-        <div class= "content"></div>
+    <div class="content"></div>
     <nav class="navbar" style="margin-bottom:0px; color:white; background-color: lightblue;">
-        <span class="navbar-brand mb-0 h1"> <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2></span>
-      </nav>
+        <span class="navbar-brand mb-0 h1">
+            <h2 class="text=center" style="font-size:50px; font-weight:600;">Get Current Weather and Air Quality</h2>
+        </span>
+    </nav>
     <div class="over container body-content">
         <div class="row" style="margin-bottom:20px;">
             <h3 class="text-center text-primary ">Enter City Name</h3>
@@ -26,36 +28,53 @@
         </div>
     </div>
 
-        <!-- Container to display data -->
-        <div class="container">
-            <div class="row"></div>
-            <div class="row">
-                <!-- Column 1 -->
-                <div class="col" id="show"></div>
-                <!-- Column 2 -->
-                <div class="col" id="show-col-2"></div>
-            </div>
+    <!-- Container to display data -->
+    <div class="container">
+        <div class="row"></div>
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col white" id="show"></div>
+            <!-- Column 2 -->
+            <div class="col white" id="show-col-2"></div>
         </div>
+    </div>
 
-        <!-- Container to display Air Quality Index table-->
-        <div class="container">
-            <div class="row">
-                <!-- AQI is "Good" -->
-                <div class="col-2">Good</div>
-                <!-- AQI is "Moderate" -->
-                <div class="col-2">Moderate</div>
-                <!-- AQI is "Unhealthy for Sensitive Groups" -->
-                <div class="col-2">Unhealthy for Sensitive Groups</div>
-                <!-- AQI is "Unhealthy" -->
-                <div class="col-2">Unhealthy</div>
-                <!-- AQI is "Very Unhealthy" -->
-                <div class="col-2">Very Unhealthy</div>                
-                <!-- AQI is "Hazardous" -->
-                <div class="col-2">Hazardous</div>            
-            </div>
+    <!-- Container to display Air Quality Index table-->
+    <div class="container pt-3" id="scale">
+        <div class="row white">
+            Air Quality Index Table
         </div>
-    
-        
+        <div class="row">
+            <!-- Air Quality is "Good" -->
+            <div class="col-2 green">Good</div>
+            <!-- Air Quality is "Moderate" -->
+            <div class="col-2 yellow">Moderate</div>
+            <!-- Air Quality is "Unhealthy for Sensitive Groups" -->
+            <div class="col-2 orange">Unhealthy for Sensitive Groups</div>
+            <!-- Air Quality is "Unhealthy" -->
+            <div class="col-2 red">Unhealthy</div>
+            <!-- Air Quality is "Very Unhealthy" -->
+            <div class="col-2 purple">Very Unhealthy</div>
+            <!-- Air Quality is "Hazardous" -->
+            <div class="col-2 maroon">Hazardous</div>
+        </div>
+        <div class="row">
+            <!-- Good AQI Range -->
+            <div class="col-2 green">0 to 50</div>
+            <!-- Moderate AQI Range -->
+            <div class="col-2 yellow">51 to 100</div>
+            <!-- Unhealthy for Sensitive Groups AQI Range -->
+            <div class="col-2 orange">101 to 150</div>
+            <!-- Unhealthy AQI Range -->
+            <div class="col-2 red">151 to 200</div>
+            <!-- Very Unhealthy AQI Range -->
+            <div class="col-2 purple">201 to 300</div>
+            <!-- Hazardous AQI Range -->
+            <div class="col-2 maroon">301 and Higher</div>
+        </div>
+    </div>
+
+
     </div>
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
