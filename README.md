@@ -1,6 +1,6 @@
 # real-estate-weather-app
 #Project 1
-
+This is a weather and air quality application we originaly intended for it to be a real estate app, but because we could not find a functional real estate API. We resorted  to this because of time constraints.
 # draw.io wireframing diagram
 https://app.diagrams.net/#Hlyne-code%2Freal-estate-weather-app%2Fmaster%2FUntitled%20Diagram.drawio 
 
