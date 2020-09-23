@@ -45,7 +45,7 @@ function show(data) {
     var h3 = $("<h3>");
     h3.text("Current Weather and Air Quality for " + data.name + ", " + data.sys.country);
     h3.addClass("text-center");
-    $("#title").append(h3);
+    $("#title").prepend(h3);
     return "<h3><strong>Weather</strong>: " + data.weather[0].main + "</h3>" +
         "<h3><strong>Description</strong>: " + data.weather[0].description + "</h3>" +
         "<h3><strong>Temperature</strong>: " + data.main.temp + "&deg;F</h3>" +
