@@ -12,7 +12,7 @@ $(document).ready(function () {
 
             $.ajax({
 
-                url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=imperial" + "&APPID=7d8a8f5d6e704abb8f8f300d6bf19e2b",
+                url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=imperial" + "&APPID=7d8a8f5d6e704abb8f8f300d6bf19e2b",
                 method: "GET",
                 dataType: "jsonp",
             })
