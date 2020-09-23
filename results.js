@@ -9,7 +9,7 @@ function showAir(city) {
             console.log(data)
             // debugger
             var widget = show(data)
-            $("#show").append(widget);
+            $("#show-col-2").append(widget);
 
         })
     
@@ -39,7 +39,7 @@ function showAir(city) {
             return "<h3><strong>Air Quality Index</strong>: " + red
         }
 
-        else if (201 <= airQualityInt && airQualityInt <= 251) {
+        else if (201 <= airQualityInt && airQualityInt <= 300) {
             var purple = airQuality.fontcolor("bb00fd")
             return "<h3><strong>Air Quality Index</strong>: " + purple
         }
